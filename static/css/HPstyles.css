@@ -23,6 +23,13 @@ body {
     text-align: center;
 }
 
+.social-buttons {
+    vertical-align: bottom;
+}
+
+.main-container {
+    max-width: 90% !important;
+}
 
 /* Full Page Image Header Area */
 
@@ -30,9 +37,11 @@ body {
     display: table;
     height: 70%;
     width: 100%;
+    max-width: 100%;
     min-height: 70%;
     position: relative;
-    background: url(../img/desk.jpg) no-repeat center center fixed;
+    background: url(../img/banner_gradient.png) no-repeat fixed;
+    background-position: center right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
